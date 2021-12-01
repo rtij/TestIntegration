@@ -1,0 +1,279 @@
+/* define all variables */
+/* later */
+body{
+    margin: 0;
+    padding: 0;
+}
+img{width: 100%;
+height: 100%;}
+.margin-top{
+    margin-top: 50px;
+}
+.full{
+    width: 100%;
+    min-height: 100%;
+}
+.relative{
+    position: relative;
+}
+.rounded{
+    border-radius: 35px;
+}
+.navbar{
+    padding-top: 10px;
+    min-height: 70px;
+    margin: 0;
+}
+.Logo{
+    /* Replace font */
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 15pt;
+    color: black;
+}
+/* First box */
+.box1{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: url("Images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    background-origin: border-box; 
+    background-size: cover;
+}
+.background1{
+    position: absolute;
+    top: 0;
+}
+.inside-box{
+    position: absolute;
+    max-width: 380px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 150px;
+    left: 0;
+}
+.inside-box button{
+    font-size: 8pt;
+    width: 150px;
+    height: 50px;
+}
+/*  */
+.search{
+    width: 85%;
+    position: relative;
+    margin-bottom: 30px;
+    border: none;
+}
+.search-icon{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    border-radius: 35px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-bottom: 1px;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+.search-input{
+    width: 80%;
+    height: 45px;
+    padding: 15px;
+    font-size: 10pt;
+    border-radius: 35px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+/* box2 */
+.box2{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(227, 240, 240);
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.title2{
+    margin-bottom: 40px;
+}
+.card{
+    min-height: 400px;
+    padding: 30px;
+    text-align: justify;
+    padding-top: 30px;
+}
+/* third box */
+.third-button{
+    font-size: 8pt;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+}
+/*  */
+.collaborate{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(165, 190, 190);
+    position: relative;
+    padding: 50px;
+    color: grey;
+}
+.collaborate button{
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    font-size: 15pt;
+}
+/* third */
+.box3{
+    width: 100vw;
+    min-height: 110vh;
+    position: relative;
+    padding:10%;
+    padding-top: 50px;
+}
+.content{
+    width: 100%;
+    position: relative;
+}
+/*  */
+.box5{
+    width: 100vw;
+    min-height: 110vh;
+    position: relative;
+    padding:10%;
+    padding-top: 50px;
+    background-color: rgb(227, 240, 240);
+}
+
+.card-2{
+    min-height: 500px;
+    text-align: justify;
+    position: relative;
+}
+.card-2 a{
+    position: absolute;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.price{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* box6 */
+.box6{
+    width: 100vw;
+    min-height: 110vh;
+    position: relative;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.box6 .content{
+    margin-top: 50px;
+}
+.content p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rsc{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 40px;
+    padding-top: 10px;
+}
+.text{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.link{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* box7 */
+.box7{
+    width: 100vw;
+    min-height: 80vh;
+    position: relative;
+    padding:30%;
+    padding-top: 50px;
+    background-color: rgb(227, 240, 240);
+}
+.box7 a{
+    font-size: 8pt;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;padding-top: 15px;
+}
+.menu-list{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.menu-list li a{
+    width: 200px;
+    font-size: 15pt;
+}
+
+.menu-list li a:hover{
+  color: white;
+  background-color: transparent;
+}
+
+.menu-list li a span{
+    margin-right: 10px;
+}
+/* 
+    scrollbar
+*/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(114, 114, 114);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+}
+
+/* responsivity */
+@media screen and (max-width:761px){
+    .col-sm-6{
+        margin-top: 20px;
+    }
+    .inside-box{
+        margin-left: 10px;
+    }
+    .box7{
+        min-height: 80vh;
+    }
+}
